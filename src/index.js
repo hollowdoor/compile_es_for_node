@@ -102,9 +102,11 @@ export default function rollit(source, options){
             code = code.replace(bangReg, '\n\n');
         }
 
+        /*
+        To generate a source map url
         if(options.sourceMaps){
             code += ['\n/', '/# sourceMappingURL=', gen.map.toUrl(), '\n'].join('');
-        }
+        }*/
 
         //\n//# sourceMappingURL=data:application/json;',
 
