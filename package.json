@@ -1,6 +1,6 @@
 {
   "name": "compile-es-for-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's in the name",
   "main": "dist/bundle.js",
   "jsnext:main": "dist/bundle.es.js",
